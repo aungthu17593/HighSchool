@@ -1,0 +1,81 @@
+2 Friday
+
+2<=r<=10 
+
+public static int Convert (int N, int rin, into rout)
+
+N= number
+r= base the original number is in
+rout =  conver to this base
+
+return number in base rout
+//////////////////////////////////////////////////////////
+
+5 Monday
+
+Let that number (on Friday) be decimal 
+
+ex N=89.467
+
+ 8*10^1+9*10^0+4*10^-1+6*10^-2+7*10-3
+
+work in two parts 
+
+.46 to binary
+
+0.46*2  0.92  0
+0.92*2  1.84  1
+0.84*2  1.68  1
+0.68*2  1.36  1 
+0.36*2  0.72  0
+0.72*2  1.44  1
+ 
+0.46 = .011101...
+
+when do u stop?
+
+check 0*(2^-1)+ 1(2^-2)+ 1(2^-3)+....=0.453
+
+error (0.46-0.453)/0.46 < 0.0001 
+-> if its close enough then stop 
+
+
+//////////////////////////////////////////////////////////
+
+6 Tuesday
+
+runs.java
+
+lets say that team a and b play 10 games
+there are no ties
+
+Possiblility
+Team A WWWWWWLLLL (1)
+Team A WLLWWWLLWW (2)
+
+runs= wins surrounded by losses except the end points
+
+(1) - 1 run
+(2) - 3 runs
+
+G games total
+m games won by team A
+what is the chance/possibility that there are r runs of wins
+
+///////////////////////////////////////////////////////////
+
+take a meter stick -- pick any point p on it
+p -- input
+and draw points at random 
+the point divides the meter into 2 segments
+choose the segment P is in
+find average length of segment that contains point p
+
+(when p=0.5, the avg=0.75)
+
+////////////////////////////////////////////////////////////
+
+riemann sum
+
+f(x) find area under curve from a to b
+

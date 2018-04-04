@@ -1,0 +1,24 @@
+to the foo method
+add -  
+
+public static double[][] matricemultiply (double[][] x, double[][] y, int m ,int n, int p)
+{
+
+x: mxn
+y: nxp
+outputs mxp 
+
+z=xy
+
+|1 2 3|  x  |5 2| = |0,0 0,1|rows times columns add in bet.   
+|4 5 6|     |9 5|   |1,0 1,1|
+|7 8 9|     |6 8|   |2,0 2,1| 
+    
+algorithm 
+
+Z[i][j] - Zij
+
+Zij = Sigma k=0 -> n-1 Xik Ykj
+
+
+not abstract class =  concrete class

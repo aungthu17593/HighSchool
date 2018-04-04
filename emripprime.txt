@@ -1,0 +1,14 @@
+reversible prime
+no palindrome
+nth pair emrips
+no reapeats
+13 - don't count 31
+
+1- 13
+1000 - 106321
+10000 - 1239421
+100000- 14439283
+
+reverse must be greater than original prime - this'll eliminate repeating emrips
+13 - 31 : 31 will be ruled out
+last digit must be greater than or equal to the first

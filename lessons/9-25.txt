@@ -1,0 +1,6 @@
+input n numbers
+randomly shuffle and rearrange the order
+6*5*4*3*2*1=6! for 6 number
+n!
+
+

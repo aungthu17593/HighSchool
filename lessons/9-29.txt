@@ -1,0 +1,5 @@
+Prime number
+2, 3, 5
+
+input n
+find the nth prime number  
